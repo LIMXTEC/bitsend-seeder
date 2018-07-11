@@ -1,0 +1,8 @@
+before_install:
+- sudo apt-get install build-essential libboost-all-dev libssl-dev
+
+language: cpp
+compiler: gcc
+
+script:
+- make
